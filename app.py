@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 
 # ── 1. 페이지 설정 ──
 st.set_page_config(page_title="영통구 집값 예측", page_icon="🏠")
-st.title("🏠 영통구 아파트 가격 예측")
+st.title("🏠 우리 동네 집값 예측기")
 st.write("집 조건을 넣으면 예상 거래가격을 알려줘요")
 
 # ── 2. 데이터 불러오고 모델 학습 (앱 켜질 때 1번) ──
